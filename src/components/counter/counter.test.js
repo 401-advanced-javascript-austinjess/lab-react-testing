@@ -12,7 +12,9 @@ describe('The Counter Component', () => {
     const tree = renderer.create(<Counter />).toJSON();
     expect(tree).toMatchSnapshot();
   });
-  it('can count up', () => {});
+  // it('can count up', () => {
+  //   let counter =
+  // });
 
   it('can count down', () => {});
 });
