@@ -1,0 +1,47 @@
+body {
+  background-color: #1c1c1c;
+  color: #616161;
+  text-align: center;
+  font-family: 'Tillana', cursive;
+}
+
+header {
+  font-size: 2.5rem;
+}
+
+footer {
+  margin-top: 50vh;
+}
+
+.counter {
+  max-width: 700px;
+  color: #616161;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  font-size: 3rem;
+  align-items: center;
+
+  span {
+    font-size: 6rem;
+    color: #9a9a9a;
+  }
+
+  .clicker {
+    font-size: 2.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #616161;
+    border: none;
+    width: 50px;
+    height: 70px;
+  }
+
+  .positive {
+    text-shadow: -5px 0 green, 0 5px green, 5px 0 green, 0 -5px green;
+  }
+
+  .negative {
+    text-shadow: -3px 0 red, 0 3px red, 3px 0 red, 0 -3px red;
+  }
+}
