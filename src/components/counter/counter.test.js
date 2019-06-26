@@ -9,11 +9,6 @@ describe('The Counter Component', () => {
     expect(counter.find('.count').text()).toBe('0');
   });
 
-  // it('matches snapshot without props', () => {
-  //   const tree = renderer.create(<Counter />).toJSON();
-  //   expect(tree).toMatchSnapshot();
-  // });
-
   it('can count up', () => {
     let counter = mount(<Counter />);
     counter.find('.up').simulate('click');
